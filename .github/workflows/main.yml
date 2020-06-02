@@ -16,7 +16,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'LoopStructural'
+          source-directory: 'notebooks'
           destination-github-username: 'Loop3D'
           destination-repository-name: 'loopPy'
           user-email: lachlan.grose@monash.edu
