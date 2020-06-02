@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: |
+         ls
       - name: Pushes to another repository
         uses: Loop3d/github-action-push-to-another-repository@master
         env:
